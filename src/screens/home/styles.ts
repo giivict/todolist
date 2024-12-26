@@ -33,16 +33,6 @@ export const styles = StyleSheet.create({
     paddingLeft: 24,
     paddingRight: 24,
   },
-  created: {
-    fontFamily: theme.FONT_FAMILY.BOLD,
-    fontSize: theme.FONT_SIZE.MD,
-    color: theme.COLORS.blue.light,
-  },
-  done: {
-    fontFamily: theme.FONT_FAMILY.BOLD,
-    fontSize: theme.FONT_SIZE.MD,
-    color: theme.COLORS.purple.light,
-  },
   taskArea: {
     flex: 1,
     backgroundColor: theme.COLORS.gray[600]

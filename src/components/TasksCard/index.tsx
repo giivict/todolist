@@ -31,11 +31,16 @@ export function TaskCard({ description, isDone, toggleDone, onRemove }: Props) {
             <Text style={[styles.task, isDone && styles.taskCompleted]} >{description}</Text>
 
             <TouchableOpacity
-                style={styles.icon}
+               style={[
+                styles.icon,
+                { 
+                    backgroundColor: isPressed ? theme.COLORS.gray[400] : 'transparent',
+                }
+            ]}
                 onPress={handleRemovePress}
                 >
                     
-                <Trash size={22} color={ isPressed ? theme.COLORS.red.dark : theme.COLORS.gray[300]}  />
+                <Trash size={22} color={ isPressed ? theme.COLORS.red.dark: theme.COLORS.gray[300]}  />
             </TouchableOpacity>
         </View>
     )

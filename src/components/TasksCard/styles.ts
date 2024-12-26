@@ -42,5 +42,10 @@ export const styles = StyleSheet.create ({
 
     icon: {
         marginRight: 10,
+        borderRadius: 4,
+        height: 32,
+        width: 32,
+        alignItems: 'center',
+        justifyContent: 'center'
     }
 })

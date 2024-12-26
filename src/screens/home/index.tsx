@@ -42,9 +42,10 @@ export default function Home() {
       description: taskText.trim(),
       isDone: false,
     }
-    
+
     setTasks((prevState) => [...prevState, newTask]);
     setTaskText(''); 
+
 
   }
 
