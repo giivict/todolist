@@ -1,5 +1,5 @@
 export const theme = {
-    COLORS: {
+  COLORS: {
     gray: {
       100: "#F2F2F2",
       200: "#D9D9D9",
@@ -11,29 +11,28 @@ export const theme = {
     },
 
     red: {
-        dark: "#E25858"
+      dark: "#E25858",
     },
-  
+
     blue: {
       dark: "#1E6F9F",
       light: "#4EA8DE",
     },
 
     purple: {
-        dark: "#5E60CE",
-        light: "#8284FA"
+      dark: "#5E60CE",
+      light: "#8284FA",
     },
-    },
+  },
 
-    FONT_FAMILY: {
-        REGULAR: 'Inter_400Regular',
-        BOLD: 'Inter_700Bold'
-      },
-    
-      FONT_SIZE: {
-        SM: 12,
-        MD: 14,
-        LG: 16,
-      }
+  FONT_FAMILY: {
+    REGULAR: "Inter_400Regular",
+    BOLD: "Inter_700Bold",
+  },
 
-  }
+  FONT_SIZE: {
+    SM: 12,
+    MD: 14,
+    LG: 16,
+  },
+};

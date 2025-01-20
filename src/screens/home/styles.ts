@@ -9,33 +9,32 @@ export const styles = StyleSheet.create({
   logo: {
     marginTop: 70,
     marginBottom: 70,
-    alignSelf: 'center'
+    alignSelf: "center",
   },
   input: {
     flex: 1,
     top: -25,
-    flexDirection: 'row',
-    width: '100%',
-    position: 'absolute',
-    justifyContent: 'center',
-    alignItems: 'center',
-    gap: 4
+    flexDirection: "row",
+    width: "100%",
+    position: "absolute",
+    justifyContent: "center",
+    alignItems: "center",
+    gap: 4,
   },
   button: {
     padding: 18,
     borderRadius: 4,
-    backgroundColor: theme.COLORS.blue.dark
+    backgroundColor: theme.COLORS.blue.dark,
   },
   info: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+    flexDirection: "row",
+    justifyContent: "space-between",
     marginTop: 55,
     paddingLeft: 24,
     paddingRight: 24,
   },
   taskArea: {
     flex: 1,
-    backgroundColor: theme.COLORS.gray[600]
+    backgroundColor: theme.COLORS.gray[600],
   },
-  
 });
